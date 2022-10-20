@@ -1,12 +1,184 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
 
-  </body>
+<body>
+  <header class="header">
+    <nav class="header-menu navigation">
+      <a class="navigation-logo">
+        <img src="#" alt="Sedona." width="140" height="70">
+      </a>
+      <ul class="navigation-list list-reset">
+        <li class="navigation-item">
+          <a class="navigation-link navigation-link-current">Главная</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
+
+      <ul class="navigation-list navigation-user-list list-reset">
+        <li class="navigation-user-item">
+          <a class="navigation-user-link navigation-user-link-search" href="#">
+            <span class="visually-hidden">Поиск</span>
+          </a>
+        </li>
+        <li class="navigation-user-item">
+          <a class="navigation-user-link navigation-user-link-favorites" href="#">
+            <span class="visually-hidden">Избранное</span>
+            <span class="navigation-user-link-favorites-num">12</span>
+          </a>
+        </li>
+      </ul>
+      <a class="button menu-button" href="#">Хочу сюда!</a>
+    </nav>
+  </header>
+  <main>
+    <section class="reasons">
+      <h2 class="visually-hidden">Причины</h2>
+      <ul class="reasons-list list-reset">
+        <li class="reasons-item reasons-item-full">
+          <div class="reasons-item-container">
+            <div class="reasons-content reasons-content-blue">
+              <h3 class="reasons-title">Настоящий городок</h3>
+              <p class="reasons-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div class="reasons-image">
+              <img src="img/advantage-1.jpg" alt="Фото здания в городе" width="800" height="384">
+            </div>
+          </div>
+        </li>
+        <li class="reasons-item">
+          <div class="reasons-content">
+            <h3 class="reasons-title">Небольшая площадь</h3>
+            <p class="reasons-description">Все достопримечательности находятся очень близко</p>
+          </div>
+        </li>
+        <li class="reasons-item">
+          <div class="reasons-content">
+            <h3 class="reasons-title">Красивая дорога</h3>
+            <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </div>
+        </li>
+        <li class="reasons-item">
+          <div class="reasons-content">
+            <h3 class="reasons-title">Мало туристов</h3>
+            <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p>
+          </div>
+        </li>
+        <li class="reasons-item reasons-item-full">
+          <div class="reasons-item-container">
+            <div class="reasons-content reasons-content-blue">
+              <h3 class="reasons-title">Там есть Мост Дьявола</h3>
+              <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            </div>
+            <div class="reasons-image">
+              <img src="img/advantage-2.jpg" alt="Фото моста Дьявола" width="800" height="384">
+            </div>
+          </div>
+        </li>
+      </ul>
+      <h2 class="visually-hidden">Предложения</h2>
+      <ul class="reasons-list reasons-list-recommendations list-reset">
+        <li class="reasons-item">
+          <div class="reasons-content reasons-content-home">
+            <h3 class="reasons-title">Жильё</h3>
+            <p class="reasons-description">Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
+          </div>
+        </li>
+        <li class="reasons-item">
+          <div class="reasons-content reasons-content-food">
+            <h3 class="reasons-title">Еда</h3>
+            <p class="reasons-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+          </div>
+        </li>
+        <li class="reasons-item">
+          <div class="reasons-content reasons-content-plus">
+            <h3 class="reasons-title">Сувениры</h3>
+            <p class="reasons-description">Не только китайского, но и настоящего местного производства!</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="search">
+      <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+      <h2 class="search-title">Заинтересовались?</h2>
+      <p class="search-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <a class="button search-button" href="#">Поиск гостиницы в Седоне</a>
+    </section>
+
+    <section class="newsletter newsletter-home">
+      <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+      <p class="newsletter-text">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+
+      <form class="newsletter-form" action="http://echo.htmlacademy.ru" method="POST">
+        <label class="visually-hidden" for="email">Ваш email</label>
+        <input class="newsletter-input form-input" id="email" name="email" type="email" placeholder="Ваш e-mail" required>
+        <button class="button button-blue newsletter-button" type="submit">Подписаться</button>
+      </form>
+    </section>
+
+
+  </main>
+  <footer class="footer">
+    <ul class="footer-social social list-reset">
+      <li class="social-item">
+        <a class="social-link" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">VK</span>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="https://t.me/htmlacademy">
+          <span class="visually-hidden">Telegram</span>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
+          <span class="visually-hidden">Youtube</span>
+        </a>
+      </li>
+    </ul>
+    <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+    <a class="footer-logo" href="https://htmlacademy.ru/">
+      <span class="visually-hidden">Логотип HTMLAcademy</span>
+    </a>
+  </footer>
+
+  <!-- <form class="search-form">
+    <div class="search-form-row">
+      <label class="search-form-label" for="from">Дата Заезда:</label>
+      <input class="search-form-field" type="text" id="from">
+      <button type="button" class="search-form-calendar">Календарь</button>
+    </div>
+    <div class="search-form-row">
+      <label class="search-form-label" for="from">Дата Выезда:</label>
+      <input class="search-form-field" type="text" id="to">
+      <button type="button" class="search-form-calendar">Календарь</button>
+    </div>
+    <div class="search-form-row">
+      <div class="search-form-col">
+        <label class="search-form-label" for="number1">Взрослые:</label>
+        <div class="number">
+          <button class="number-btn number_btn-minus">Минус</button>
+          <input class="number-field" type="text" id="number1">
+          <button class="number-btn number btn-plus">Плюс</button>
+        </div>
+      </div>
+      <div class="search-form-col">
+        <button class="number-btn number_btn-minus">Минус</button>
+        <input class="number field" type="text" id="number2">
+        <button class="number btn number btn-plus">Плюс</button>
+
+      </div>
+  </form> -->
+
+</body>
+
 </html>
