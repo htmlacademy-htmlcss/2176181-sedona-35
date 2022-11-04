@@ -1,0 +1,76 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "PT Sans";
+
+  font-display: swap;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "PT Sans";
+
+  font-display: swap;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+}
+
+body {
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+
+  background-color: #f2f2f2;
+}
+
+/* Pages */
+
+.page-header {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "PT Sans";
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background: #ffffff;
+}
+
+.main-index {
+  color: #000000;
+
+  background-color: #ffffff;
+  background-image: url("../images/background/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-family: "PT Sans";
+  text-transform: uppercase;
+}
+
+/* reasons-item */
+.reasons-item {
+  color: #000000;
+
+  background-color: #fbf7f4;
+  background-image: url("../images/bg-noisy.png");
+}
